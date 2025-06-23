@@ -267,9 +267,10 @@
       "name": "Kevin Hughes",
       "role": "Startup Founder",
       "feedback": "They helped us hit our fundraising goal in just 3 weeks. The team knows exactly how to drive results.",
-      "image": "/placeholder.svg?height=80&width=80",
+      "image": "/agent1.jpeg?height=80&width=80",
       "rating": 5
     },
+
     {
       "name": "Kathleen Meyer",
       "role": "Nonprofit Director",
@@ -290,7 +291,7 @@
       "name": "Sulex",
       "role": "CEO / Lead Strategist",
       "bio": "Former CMO with years of experience in campaign strategy and digital growth.",
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "/agent1.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
@@ -298,7 +299,7 @@
       "name": "Abdulmuiz",
       "role": "Content Director",
       "bio": "Specialist in copywriting and visual storytelling for fundraising brands.",
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "/agent2.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
@@ -306,7 +307,7 @@
       "name": "Samad",
       "role": "Email Marketing Lead",
       "bio": "Expert in CRM, segmentation, and drip campaign strategy.",
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "/agent3.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
@@ -314,7 +315,7 @@
       "name": "Alosia",
       "role": "Social Media Manager",
       "bio": "Manages video promotion and influencer outreach.",
-      "image": "/placeholder.svg?height=200&width=200",
+      "image": "/agent5.jpeg",
       "linkedin": "#",
       "twitter": "#"
     }
