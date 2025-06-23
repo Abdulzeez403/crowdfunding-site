@@ -1,0 +1,329 @@
+{
+  "hero": {
+    "headline": "You are welcome here — Team Expert in Fundraising",
+    "subtext": "We help startups and creators raise funds and grow their communities through powerful marketing strategies."
+  },
+  "about": {
+    "title": "Who We Are",
+    "description": "We are architects of brand success. Our team combines creativity, data-driven insights, and deep knowledge of digital tools to craft powerful, conversion-focused campaigns."
+  },
+  "services": [
+    {
+      "id": "email_marketing",
+      "title": "Email Marketing",
+      "priceRange": "$250 - $400",
+      "description": "Engage your audience with impactful email campaigns, curated newsletters, and QR code-driven promotions.",
+      "features": [
+        "Newsletter campaign design",
+        "QR code engagement strategies",
+        "Automated drip campaigns",
+        "A/B testing and optimization",
+        "Performance analytics and reporting"
+      ]
+    },
+    {
+      "id": "social_media",
+      "title": "Social Media Marketing",
+      "priceRange": "$150 - $200",
+      "description": "Grow your audience and engagement with custom content, video promotions, and social media strategy.",
+      "features": [
+        "Multi-platform campaign management",
+        "Video promotion content",
+        "Community engagement strategies",
+        "Influencer collaboration",
+        "Social media advertising"
+      ]
+    },
+    {
+      "id": "crowdfunding_funnel",
+      "title": "Crowdfunding Funnel",
+      "priceRange": "$250 - $400",
+      "description": "Launch successful fundraising campaigns with expert content writing, email lists, and landing page optimization.",
+      "features": [
+        "Campaign content creation",
+        "Curated backer lists",
+        "Landing page optimization",
+        "Pre-launch strategy",
+        "Post-campaign follow-up"
+      ]
+    }
+  ],
+  "successStories": [
+    {
+      "id": "tech_startup_series_a",
+      "title": "TechFlow AI - Series A Funding",
+      "category": "Tech Startup",
+      "amount": "$2.5M",
+      "duration": "3 months",
+      "platform": "Multiple VCs",
+      "description": "Helped a B2B AI startup secure Series A funding through strategic investor outreach and compelling pitch deck optimization.",
+      "results": {
+        "fundsRaised": "$2,500,000",
+        "investorsMet": "45+",
+        "conversionRate": "18%",
+        "timeToClose": "90 days"
+      },
+      "services": [
+        "Pitch Deck Design",
+        "Investor Outreach",
+        "Financial Modeling",
+        "Due Diligence Support"
+      ],
+      "testimonial": "FundRaise Pro transformed our fundraising approach. Their strategic guidance and investor network were invaluable.",
+      "clientName": "Sarah Chen",
+      "clientRole": "CEO, TechFlow AI",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": true
+    },
+    {
+      "id": "nonprofit_education",
+      "title": "EduBridge Foundation - Annual Campaign",
+      "category": "Nonprofit",
+      "amount": "$850K",
+      "duration": "6 months",
+      "platform": "GoFundMe + Direct",
+      "description": "Launched a comprehensive fundraising campaign for educational programs in underserved communities.",
+      "results": {
+        "fundsRaised": "$850,000",
+        "donors": "2,300+",
+        "emailOpenRate": "34%",
+        "socialEngagement": "450%"
+      },
+      "services": [
+        "Email Marketing",
+        "Social Media Campaign",
+        "Content Creation",
+        "Donor Management"
+      ],
+      "testimonial": "The team's expertise in nonprofit fundraising exceeded our expectations. We reached our goal 2 months early!",
+      "clientName": "Michael Rodriguez",
+      "clientRole": "Executive Director",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": true
+    },
+    {
+      "id": "product_kickstarter",
+      "title": "EcoSmart Water Bottle - Kickstarter",
+      "category": "Product Launch",
+      "amount": "$425K",
+      "duration": "45 days",
+      "platform": "Kickstarter",
+      "description": "Successfully launched an innovative eco-friendly water bottle with smart temperature control features.",
+      "results": {
+        "fundsRaised": "$425,000",
+        "backers": "3,200+",
+        "goalAchieved": "340%",
+        "preOrders": "5,500+"
+      },
+      "services": [
+        "Campaign Strategy",
+        "Video Production",
+        "Social Media Marketing",
+        "Influencer Outreach"
+      ],
+      "testimonial": "From strategy to execution, FundRaise Pro delivered exceptional results. Our product is now in production!",
+      "clientName": "Emma Thompson",
+      "clientRole": "Founder, EcoSmart",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": true
+    },
+    {
+      "id": "healthcare_seed",
+      "title": "MedTech Solutions - Seed Round",
+      "category": "Healthcare",
+      "amount": "$1.2M",
+      "duration": "4 months",
+      "platform": "Angel Investors",
+      "description": "Secured seed funding for a revolutionary telemedicine platform targeting rural healthcare access.",
+      "results": {
+        "fundsRaised": "$1,200,000",
+        "investorsMet": "28",
+        "pitchSuccess": "25%",
+        "followUpMeetings": "12"
+      },
+      "services": [
+        "Business Plan Development",
+        "Market Research",
+        "Investor Matching",
+        "Pitch Coaching"
+      ],
+      "testimonial": "Their deep understanding of the healthcare investment landscape was crucial to our success.",
+      "clientName": "Dr. James Wilson",
+      "clientRole": "Co-founder, MedTech Solutions",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": false
+    },
+    {
+      "id": "creative_indiegogo",
+      "title": "ArtSpace Collective - Community Studio",
+      "category": "Creative Arts",
+      "amount": "$180K",
+      "duration": "60 days",
+      "platform": "Indiegogo",
+      "description": "Helped establish a community art studio and gallery space through crowdfunding and local partnerships.",
+      "results": {
+        "fundsRaised": "$180,000",
+        "supporters": "850+",
+        "communityEvents": "15",
+        "mediaFeatures": "8"
+      },
+      "services": [
+        "Community Engagement",
+        "PR & Media Outreach",
+        "Event Planning",
+        "Partnership Development"
+      ],
+      "testimonial": "They understood our vision and helped us build a movement, not just raise funds.",
+      "clientName": "Maria Santos",
+      "clientRole": "Director, ArtSpace Collective",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": false
+    },
+    {
+      "id": "food_tech_series_b",
+      "title": "GreenEats - Series B Expansion",
+      "category": "Food Tech",
+      "amount": "$5.8M",
+      "duration": "5 months",
+      "platform": "Venture Capital",
+      "description": "Supported a sustainable food delivery platform in raising Series B funding for national expansion.",
+      "results": {
+        "fundsRaised": "$5,800,000",
+        "leadInvestor": "Top Tier VC",
+        "marketExpansion": "12 cities",
+        "teamGrowth": "150%"
+      },
+      "services": [
+        "Growth Strategy",
+        "Financial Projections",
+        "Investor Relations",
+        "Market Analysis"
+      ],
+      "testimonial": "FundRaise Pro's strategic approach and network connections were instrumental in closing our Series B.",
+      "clientName": "Alex Kumar",
+      "clientRole": "CEO, GreenEats",
+      "image": "/placeholder.svg?height=300&width=400",
+      "featured": false
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Basic",
+      "price": "$150",
+      "period": "/month",
+      "description": "Perfect for getting started with fundraising",
+      "features": [
+        "1 Landing Page",
+        "Basic Campaign Setup",
+        "Email Newsletter Integration",
+        "Basic Analytics",
+        "Email Support"
+      ],
+      "popular": false
+    },
+    {
+      "plan": "Standard",
+      "price": "$300",
+      "period": "/month",
+      "description": "Ideal for growing campaigns",
+      "features": [
+        "3 Pages Website",
+        "Social Media Campaign",
+        "Email + Funnel Support",
+        "Advanced Analytics",
+        "Priority Support",
+        "A/B Testing"
+      ],
+      "popular": true
+    },
+    {
+      "plan": "Premium",
+      "price": "$500+",
+      "period": "/month",
+      "description": "Complete fundraising solution",
+      "features": [
+        "Unlimited Pages",
+        "Custom Domain",
+        "Full Funnel + Team Support",
+        "Priority Support",
+        "Dedicated Account Manager",
+        "Custom Integrations"
+      ],
+      "popular": false
+    }
+  ],
+  "platforms": [
+    "Wefunder",
+    "Kickstarter",
+    "GoFundMe",
+    "Mailchimp",
+    "Patreon",
+    "Indiegogo",
+    "Intercom",
+    "Stripe"
+  ],
+  "testimonials": [
+    {
+      "name": "Kevin Hughes",
+      "role": "Startup Founder",
+      "feedback": "They helped us hit our fundraising goal in just 3 weeks. The team knows exactly how to drive results.",
+      "image": "/placeholder.svg?height=80&width=80",
+      "rating": 5
+    },
+    {
+      "name": "Kathleen Meyer",
+      "role": "Nonprofit Director",
+      "feedback": "The email strategy alone brought in more donations than our last 2 campaigns combined.",
+      "image": "/placeholder.svg?height=80&width=80",
+      "rating": 5
+    },
+    {
+      "name": "Walter Davidson",
+      "role": "Product Creator",
+      "feedback": "They handled everything from content to landing pages. Super professional and result-driven.",
+      "image": "/placeholder.svg?height=80&width=80",
+      "rating": 5
+    }
+  ],
+  "team": [
+    {
+      "name": "Sulex",
+      "role": "CEO / Lead Strategist",
+      "bio": "Former CMO with years of experience in campaign strategy and digital growth.",
+      "image": "/placeholder.svg?height=200&width=200",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Abdulmuiz",
+      "role": "Content Director",
+      "bio": "Specialist in copywriting and visual storytelling for fundraising brands.",
+      "image": "/placeholder.svg?height=200&width=200",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Samad",
+      "role": "Email Marketing Lead",
+      "bio": "Expert in CRM, segmentation, and drip campaign strategy.",
+      "image": "/placeholder.svg?height=200&width=200",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Alosia",
+      "role": "Social Media Manager",
+      "bio": "Manages video promotion and influencer outreach.",
+      "image": "/placeholder.svg?height=200&width=200",
+      "linkedin": "#",
+      "twitter": "#"
+    }
+  ],
+  "contact": {
+    "email": "itzherbdul@gmail.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Business Ave, New York, NY 10001",
+    "ctaText": "Contact Us",
+    "note": "Let's discuss your next campaign. We usually respond within 24 hours."
+  }
+}
