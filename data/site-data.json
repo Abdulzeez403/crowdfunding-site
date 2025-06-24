@@ -52,158 +52,74 @@
     {
       "id": "tech_startup_series_a",
       "title": "TechFlow AI - Series A Funding",
-      "category": "Tech Startup",
+      "category": "GoFundMe",
       "amount": "$2.5M",
       "duration": "3 months",
+      "ProjectImage":"/project1.png",
       "platform": "Multiple VCs",
-      "description": "Helped a B2B AI startup secure Series A funding through strategic investor outreach and compelling pitch deck optimization.",
-      "results": {
-        "fundsRaised": "$2,500,000",
-        "investorsMet": "45+",
-        "conversionRate": "18%",
-        "timeToClose": "90 days"
-      },
-      "services": [
-        "Pitch Deck Design",
-        "Investor Outreach",
-        "Financial Modeling",
-        "Due Diligence Support"
-      ],
-      "testimonial": "FundRaise Pro transformed our fundraising approach. Their strategic guidance and investor network were invaluable.",
-      "clientName": "Sarah Chen",
-      "clientRole": "CEO, TechFlow AI",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": true
+      "link":"https://www.gofundme.com/f/help-abdullah-in-gaza-get-a-phonehis-lifeline-to-the-world?lang=en_GB&ts=1750413600",
+      "description": "Helped a B2B AI startup secure Series A funding through strategic investor outreach and compelling pitch deck optimization."
+    
     },
     {
       "id": "nonprofit_education",
       "title": "EduBridge Foundation - Annual Campaign",
-      "category": "Nonprofit",
+      "category": "GoFundMe",
       "amount": "$850K",
+      "ProjectImage":"/project2.png",
       "duration": "6 months",
       "platform": "GoFundMe + Direct",
-      "description": "Launched a comprehensive fundraising campaign for educational programs in underserved communities.",
-      "results": {
-        "fundsRaised": "$850,000",
-        "donors": "2,300+",
-        "emailOpenRate": "34%",
-        "socialEngagement": "450%"
-      },
-      "services": [
-        "Email Marketing",
-        "Social Media Campaign",
-        "Content Creation",
-        "Donor Management"
-      ],
-      "testimonial": "The team's expertise in nonprofit fundraising exceeded our expectations. We reached our goal 2 months early!",
-      "clientName": "Michael Rodriguez",
-      "clientRole": "Executive Director",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": true
+      "link":"https://www.gofundme.com/f/a-familys-world-turned-upside-down-support-needed?lang=en_GB&ts=1750504043&v=amp14_t2",
+      "description": "Launched a comprehensive fundraising campaign for educational programs in underserved communities."
+     
     },
     {
       "id": "product_kickstarter",
       "title": "EcoSmart Water Bottle - Kickstarter",
-      "category": "Product Launch",
+      "category": "Kickstarter",
       "amount": "$425K",
       "duration": "45 days",
+      "ProjectImage":"/project6.png",
       "platform": "Kickstarter",
-      "description": "Successfully launched an innovative eco-friendly water bottle with smart temperature control features.",
-      "results": {
-        "fundsRaised": "$425,000",
-        "backers": "3,200+",
-        "goalAchieved": "340%",
-        "preOrders": "5,500+"
-      },
-      "services": [
-        "Campaign Strategy",
-        "Video Production",
-        "Social Media Marketing",
-        "Influencer Outreach"
-      ],
-      "testimonial": "From strategy to execution, FundRaise Pro delivered exceptional results. Our product is now in production!",
-      "clientName": "Emma Thompson",
-      "clientRole": "Founder, EcoSmart",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": true
+      "link":"https://www.indiegogo.com/projects/pladeo-world-s-first-bio-plasma-deodorant-device#/",
+      "description": "Successfully launched an innovative eco-friendly water bottle with smart temperature control features."
+    
     },
     {
       "id": "healthcare_seed",
       "title": "MedTech Solutions - Seed Round",
-      "category": "Healthcare",
+      "category": "Indiegogo",
       "amount": "$1.2M",
+      "ProjectImage":"/project3.png",
       "duration": "4 months",
-      "platform": "Angel Investors",
-      "description": "Secured seed funding for a revolutionary telemedicine platform targeting rural healthcare access.",
-      "results": {
-        "fundsRaised": "$1,200,000",
-        "investorsMet": "28",
-        "pitchSuccess": "25%",
-        "followUpMeetings": "12"
-      },
-      "services": [
-        "Business Plan Development",
-        "Market Research",
-        "Investor Matching",
-        "Pitch Coaching"
-      ],
-      "testimonial": "Their deep understanding of the healthcare investment landscape was crucial to our success.",
-      "clientName": "Dr. James Wilson",
-      "clientRole": "Co-founder, MedTech Solutions",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": false
+      "platform": "Indiegogo",
+      "link":"https://www.indiegogo.com/projects/black-badge-raffle-dc33-trading-cards#/",
+      "description": "Secured seed funding for a revolutionary telemedicine platform targeting rural healthcare access."
+   
     },
     {
       "id": "creative_indiegogo",
       "title": "ArtSpace Collective - Community Studio",
-      "category": "Creative Arts",
+      "category": "kickstarter",
       "amount": "$180K",
+      "ProjectImage":"/project4.png",
       "duration": "60 days",
-      "platform": "Indiegogo",
-      "description": "Helped establish a community art studio and gallery space through crowdfunding and local partnerships.",
-      "results": {
-        "fundsRaised": "$180,000",
-        "supporters": "850+",
-        "communityEvents": "15",
-        "mediaFeatures": "8"
-      },
-      "services": [
-        "Community Engagement",
-        "PR & Media Outreach",
-        "Event Planning",
-        "Partnership Development"
-      ],
-      "testimonial": "They understood our vision and helped us build a movement, not just raise funds.",
-      "clientName": "Maria Santos",
-      "clientRole": "Director, ArtSpace Collective",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": false
+      "platform": "kickstarter",
+      "link":"https://www.kickstarter.com/projects/huizenwatchcompany/huizen-traditionell",
+      "description": "Helped establish a community art studio and gallery space through crowdfunding and local partnerships."
+    
     },
     {
       "id": "food_tech_series_b",
       "title": "GreenEats - Series B Expansion",
-      "category": "Food Tech",
+      "category": "Gofundme",
       "amount": "$5.8M",
       "duration": "5 months",
-      "platform": "Venture Capital",
-      "description": "Supported a sustainable food delivery platform in raising Series B funding for national expansion.",
-      "results": {
-        "fundsRaised": "$5,800,000",
-        "leadInvestor": "Top Tier VC",
-        "marketExpansion": "12 cities",
-        "teamGrowth": "150%"
-      },
-      "services": [
-        "Growth Strategy",
-        "Financial Projections",
-        "Investor Relations",
-        "Market Analysis"
-      ],
-      "testimonial": "FundRaise Pro's strategic approach and network connections were instrumental in closing our Series B.",
-      "clientName": "Alex Kumar",
-      "clientRole": "CEO, GreenEats",
-      "image": "/placeholder.svg?height=300&width=400",
-      "featured": false
+      "platform": "Gofundme",
+      "ProjectImage":"/project5.png",
+      "link":"https://www.gofundme.com/f/gwadtf-help-abdullah-and-his-family-in-gaza",
+      "description": "Supported a sustainable food delivery platform in raising Series B funding for national expansion."
+    
     }
   ],
   "pricing": [
@@ -288,7 +204,7 @@
   ],
   "team": [
     {
-      "name": "Sulex",
+      "name": "Solihu",
       "role": "CEO / Lead Strategist",
       "bio": "Former CMO with years of experience in campaign strategy and digital growth.",
       "image": "/agent1.jpeg",
@@ -296,15 +212,15 @@
       "twitter": "#"
     },
     {
-      "name": "Abdulmuiz",
-      "role": "Content Director",
+      "name": "YOY",
+      "role": "Video Expert",
       "bio": "Specialist in copywriting and visual storytelling for fundraising brands.",
       "image": "/agent2.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
     {
-      "name": "Samad",
+      "name": "Harmony",
       "role": "Email Marketing Lead",
       "bio": "Expert in CRM, segmentation, and drip campaign strategy.",
       "image": "/agent3.jpeg",
@@ -312,10 +228,26 @@
       "twitter": "#"
     },
     {
-      "name": "Alosia",
+      "name": "Samad",
       "role": "Social Media Manager",
       "bio": "Manages video promotion and influencer outreach.",
       "image": "/agent5.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "SULEXY",
+      "role": "Social Media Manager",
+      "bio": "Manages video promotion and influencer outreach.",
+      "image": "/agent4.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Herbdulmuiz",
+      "role": "Social Media Manager",
+      "bio": "Manages video promotion and influencer outreach.",
+      "image": "/agent6.jpeg",
       "linkedin": "#",
       "twitter": "#"
     }

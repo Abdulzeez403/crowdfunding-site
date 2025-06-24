@@ -23,17 +23,11 @@ export interface SiteData {
     amount: string;
     duration: string;
     platform: string;
-    description: string;
-    results: {
-      fundsRaised: string;
-      [key: string]: string | number;
-    };
-    services: string[];
-    testimonial: string;
-    clientName: string;
-    clientRole: string;
+
     image: string;
-    featured: boolean;
+link:string;
+    description: string;
+  
   }>;
   pricing: Array<{
     plan: string;

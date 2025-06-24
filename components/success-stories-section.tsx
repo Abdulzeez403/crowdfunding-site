@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import Image from "next/image"
+import Link from "next/link"
 import {
   TrendingUp,
   Target,
@@ -21,17 +23,10 @@ interface SuccessStory {
   amount: string;
   duration: string;
   platform: string;
-  description: string;
-  results: {
-    fundsRaised: string;
-    [key: string]: string | number;
-  };
-  services: string[];
-  testimonial: string;
-  clientName: string;
-  clientRole: string;
   image: string;
-  featured: boolean;
+  link:string;
+  description: string;
+ 
 }
 
 interface SuccessStoriesSectionProps {
@@ -62,9 +57,9 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Tech Startup": "bg-blue-100 text-blue-800",
-      Nonprofit: "bg-green-100 text-green-800",
-      "Product Launch": "bg-purple-100 text-purple-800",
+      "Gofundme": "bg-blue-100 text-blue-800",
+      kickstarter: "bg-green-100 text-green-800",
+      "Indiegogo": "bg-purple-100 text-purple-800",
       Healthcare: "bg-red-100 text-red-800",
       "Creative Arts": "bg-yellow-100 text-yellow-800",
       "Food Tech": "bg-orange-100 text-orange-800",
@@ -89,146 +84,6 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
             See how we've helped businesses and organizations achieve their
             fundraising goals with strategic campaigns and expert execution.
           </p>
-        </div>
-
-        {/* Featured Success Story Carousel */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-            Featured Campaigns
-          </h3>
-          <div className="relative">
-            <Card className="border-0 shadow-xl overflow-hidden animate-fade-in-up">
-              <div className="grid grid-cols-1 lg:grid-cols-2">
-                {/* Story Content */}
-                <CardContent className="p-8 lg:p-12">
-                  <div className="flex items-center justify-between mb-6">
-                    <Badge
-                      className={getCategoryColor(
-                        featuredStories[activeStory]?.category
-                      )}
-                    >
-                      {featuredStories[activeStory]?.category}
-                    </Badge>
-                    <div className="text-3xl font-bold text-green-600">
-                      {featuredStories[activeStory]?.amount}
-                    </div>
-                  </div>
-
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    {featuredStories[activeStory]?.title}
-                  </h3>
-
-                  <p className="text-gray-600 mb-6 leading-relaxed">
-                    {featuredStories[activeStory]?.description}
-                  </p>
-
-                  {/* Key Results */}
-                  <div className="grid grid-cols-2 gap-4 mb-6">
-                    {Object.entries(featuredStories[activeStory]?.results || {})
-                      .slice(0, 4)
-                      .map(([key, value]) => (
-                        <div
-                          key={key}
-                          className="text-center p-3 bg-gray-50 rounded-lg"
-                        >
-                          <div className="text-lg font-bold text-gray-900">
-                            {value}
-                          </div>
-                          <div className="text-xs text-gray-600 capitalize">
-                            {key.replace(/([A-Z])/g, " $1").trim()}
-                          </div>
-                        </div>
-                      ))}
-                  </div>
-
-                  {/* Services Used */}
-                  <div className="mb-6">
-                    <h4 className="text-sm font-semibold text-gray-700 mb-3">
-                      Services Provided:
-                    </h4>
-                    <div className="flex flex-wrap gap-2">
-                      {featuredStories[activeStory]?.services.map(
-                        (service, index) => (
-                          <Badge
-                            key={index}
-                            variant="outline"
-                            className="text-xs"
-                          >
-                            {service}
-                          </Badge>
-                        )
-                      )}
-                    </div>
-                  </div>
-
-                  {/* Testimonial */}
-                  <blockquote className="border-l-4 border-blue-500 pl-4 italic text-gray-700 mb-4">
-                    "{featuredStories[activeStory]?.testimonial}"
-                  </blockquote>
-                  <div className="text-sm text-gray-600">
-                    <strong>{featuredStories[activeStory]?.clientName}</strong>{" "}
-                    - {featuredStories[activeStory]?.clientRole}
-                  </div>
-                </CardContent>
-
-                {/* Story Image/Stats */}
-                <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 lg:p-12 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                      <TrendingUp className="w-16 h-16 text-blue-600" />
-                    </div>
-                    <div className="space-y-4">
-                      <div className="flex items-center justify-center space-x-4">
-                        <Calendar className="w-5 h-5 text-gray-600" />
-                        <span className="text-gray-700">
-                          {featuredStories[activeStory]?.duration}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-center space-x-4">
-                        <Target className="w-5 h-5 text-gray-600" />
-                        <span className="text-gray-700">
-                          {featuredStories[activeStory]?.platform}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Card>
-
-            {/* Carousel Controls */}
-            <div className="flex justify-center items-center mt-6 space-x-4">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={prevStory}
-                className="hover:bg-blue-50"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </Button>
-
-              <div className="flex space-x-2">
-                {featuredStories.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setActiveStory(index)}
-                    className={`w-3 h-3 rounded-full transition-colors ${
-                      index === activeStory ? "bg-blue-600" : "bg-gray-300"
-                    }`}
-                  />
-                ))}
-              </div>
-
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={nextStory}
-                className="hover:bg-blue-50"
-              >
-                <ChevronRight className="w-4 h-4" />
-              </Button>
-            </div>
-          </div>
         </div>
 
         {/* Category Filter */}
@@ -263,12 +118,17 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                     {story.amount}
                   </div>
                 </div>
-                <CardTitle className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                {/* <CardTitle className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                   {story.title}
-                </CardTitle>
+                </CardTitle> */}
               </CardHeader>
 
               <CardContent className="pt-0">
+                <img 
+      src={story?.ProjectImage} 
+      alt={story.title} 
+      className="rounded w-full h-50" 
+    />
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                   {story.description}
                 </p>
@@ -277,7 +137,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <div className="text-center p-2 bg-gray-50 rounded">
                     <div className="text-sm font-bold text-gray-900">
-                      {Object.values(story.results)[0]}
+                    {story.results}
                     </div>
                     <div className="text-xs text-gray-600">Raised</div>
                   </div>
@@ -289,37 +149,16 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                   </div>
                 </div>
 
-                {/* Services */}
-                <div className="mb-4">
-                  <div className="flex flex-wrap gap-1">
-                    {story.services.slice(0, 3).map((service, serviceIndex) => (
-                      <Badge
-                        key={serviceIndex}
-                        variant="outline"
-                        className="text-xs"
-                      >
-                        {service}
-                      </Badge>
-                    ))}
-                    {story.services.length > 3 && (
-                      <Badge variant="outline" className="text-xs">
-                        +{story.services.length - 3} more
-                      </Badge>
-                    )}
-                  </div>
-                </div>
-
-                {/* Client */}
-                <div className="text-xs text-gray-600 mb-4">
-                  <strong>{story.clientName}</strong> - {story.clientRole}
-                </div>
-
+               
                 <Button
                   variant="outline"
                   size="sm"
                   className="w-full group-hover:bg-blue-50 group-hover:border-blue-200"
                 >
+                  <Link href={ `${story.link}`}>
                   View Details
+
+                  </Link>
                   <ExternalLink className="w-3 h-3 ml-2" />
                 </Button>
               </CardContent>
