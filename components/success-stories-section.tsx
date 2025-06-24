@@ -57,9 +57,9 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
 
   const getCategoryColor = (category: string) => {
     const colors = {
-      "Gofundme": "bg-blue-100 text-blue-800",
+      GoFundMe: "bg-blue-100 text-blue-800",
       kickstarter: "bg-green-100 text-green-800",
-      "Indiegogo": "bg-purple-100 text-purple-800",
+      Indiegogo: "bg-purple-100 text-purple-800",
       Healthcare: "bg-red-100 text-red-800",
       "Creative Arts": "bg-yellow-100 text-yellow-800",
       "Food Tech": "bg-orange-100 text-orange-800",
@@ -137,7 +137,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <div className="text-center p-2 bg-gray-50 rounded">
                     <div className="text-sm font-bold text-gray-900">
-                    {story.results}
+                    {story.amount}
                     </div>
                     <div className="text-xs text-gray-600">Raised</div>
                   </div>
@@ -178,9 +178,16 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                <Link href="https://www.fiverr.com/sholly_be">
                 Start Your Campaign
+                </Link>
               </Button>
-              <Button variant="outline">Schedule Consultation</Button>
+              <Button variant="outline">
+              <Link href="https://www.fiverr.com/sholly_be">
+                Schedule Consultation
+                </Link>
+
+                </Button>
             </div>
           </div>
         </div>
