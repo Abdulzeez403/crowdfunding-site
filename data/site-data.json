@@ -55,59 +55,54 @@
       "category": "GoFundMe",
       "amount": "$30K",
       "duration": "1 month",
-      "ProjectImage":"/project1.png",
+      "ProjectImage": "/project1.png",
       "platform": "GoFundMe",
-      "link":"https://www.gofundme.com/f/help-abdullah-in-gaza-get-a-phonehis-lifeline-to-the-world?lang=en_GB&ts=1750413600",
+      "link": "https://www.gofundme.com/f/help-abdullah-in-gaza-get-a-phonehis-lifeline-to-the-world?lang=en_GB&ts=1750413600",
       "description": "Facilitated emergency crowdfunding for a displaced Gaza family, enabling successful fundraising for evacuation and humanitarian relief through targeted campaign strategy and donor engagement."
-    
     },
     {
       "id": "nonprofit_education",
       "title": "EduBridge Foundation - Annual Campaign",
       "category": "GoFundMe",
       "amount": "$40K",
-      "ProjectImage":"/project2.png",
+      "ProjectImage": "/project2.png",
       "duration": "1 month",
       "platform": "GoFundMe",
-      "link":"https://www.gofundme.com/f/a-familys-world-turned-upside-down-support-needed?lang=en_GB&ts=1750504043&v=amp14_t2",
+      "link": "https://www.gofundme.com/f/a-familys-world-turned-upside-down-support-needed?lang=en_GB&ts=1750504043&v=amp14_t2",
       "description": "Led compassionate crowdfunding support for a grieving young family after the sudden loss of a husband and father, driving successful fundraising to provide immediate financial relief and stability."
-     
     },
     {
       "id": "product_kickstarter",
       "title": "EcoSmart Water Bottle - Kickstarter",
       "category": "Kickstarter",
-      "amount": "$425K",
+      "amount": "$36K",
       "duration": "45 days",
-      "ProjectImage":"/project6.png",
+      "ProjectImage": "/project6.png",
       "platform": "Kickstarter",
-      "link":"https://www.indiegogo.com/projects/pladeo-world-s-first-bio-plasma-deodorant-device#/",
+      "link": "https://www.indiegogo.com/projects/pladeo-world-s-first-bio-plasma-deodorant-device#/",
       "description": "Supported a CES award-winning Korean startup in launching its bio-plasma deodorant device on Indiegogo, driving global early-backer engagement and surpassing crowdfunding goals by 147%."
-    
     },
     {
       "id": "healthcare_seed",
       "title": "MedTech Solutions - Seed Round",
       "category": "Indiegogo",
       "amount": "$1.2M",
-      "ProjectImage":"/project3.png",
+      "ProjectImage": "/project3.png",
       "duration": "4 months",
       "platform": "Indiegogo",
-      "link":"https://www.indiegogo.com/projects/black-badge-raffle-dc33-trading-cards#/",
+      "link": "https://www.indiegogo.com/projects/black-badge-raffle-dc33-trading-cards#/",
       "description": "Enabled successful crowdfunding for a limited-edition DEF CON trading card series, driving 192% funding through targeted community outreach and perk-based engagement strategy."
-   
     },
     {
       "id": "creative_indiegogo",
       "title": "ArtSpace Collective - Community Studio",
       "category": "kickstarter",
       "amount": "$180K",
-      "ProjectImage":"/project4.png",
+      "ProjectImage": "/project4.png",
       "duration": "60 days",
       "platform": "kickstarter",
-      "link":"https://www.kickstarter.com/projects/huizenwatchcompany/huizen-traditionell",
+      "link": "https://www.kickstarter.com/projects/huizenwatchcompany/huizen-traditionell",
       "description": "Assisted an Australian jewelry brand in surpassing its Kickstarter funding goal through strategic positioning, creative campaign design, and early backer acquisition"
-    
     },
     {
       "id": "food_tech_series_b",
@@ -116,10 +111,9 @@
       "amount": "$30k",
       "duration": "2 months",
       "platform": "GoFundMe",
-      "ProjectImage":"/project5.png",
-      "link":"https://www.gofundme.com/f/gwadtf-help-abdullah-and-his-family-in-gaza",
+      "ProjectImage": "/project5.png",
+      "link": "https://www.gofundme.com/f/gwadtf-help-abdullah-and-his-family-in-gaza",
       "description": "Facilitated urgent crowdfunding for a Gaza family seeking evacuation and safety, successfully mobilizing global donors through compassionate storytelling and rapid campaign execution."
-    
     }
   ],
   "pricing": [
@@ -206,8 +200,8 @@
       "role": "CEO / Lead Strategist",
       "bio": "Former CMO with years of experience in campaign strategy and digital growth.",
       "image": "/agent1.jpeg",
-      "linkedin": "#",
-      "twitter": "#"
+      "linkedin": "https://www.instagram.com/solihu26?igsh=MXN0ajVndDU2ejI3eQ==",
+      "twitter": "https://x.com/isowo_solihu?t=FBNage8eXzbvA7Ll6yUdcg&s=09"
     },
     {
       "name": "YOY",

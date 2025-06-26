@@ -4,8 +4,8 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import {
   TrendingUp,
   Target,
@@ -24,9 +24,8 @@ interface SuccessStory {
   duration: string;
   platform: string;
   image: string;
-  link:string;
+  link: string;
   description: string;
- 
 }
 
 interface SuccessStoriesSectionProps {
@@ -70,7 +69,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
   };
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50" id="project">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in-up">
           <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 text-sm font-semibold rounded-md mb-6">
@@ -124,11 +123,11 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
               </CardHeader>
 
               <CardContent className="pt-0">
-                <img 
-      src={story?.ProjectImage} 
-      alt={story.title} 
-      className="rounded w-full h-50" 
-    />
+                <img
+                  src={story?.ProjectImage}
+                  alt={story.title}
+                  className="rounded w-full h-50"
+                />
                 <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                   {story.description}
                 </p>
@@ -137,7 +136,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                 <div className="grid grid-cols-2 gap-3 mb-4">
                   <div className="text-center p-2 bg-gray-50 rounded">
                     <div className="text-sm font-bold text-gray-900">
-                    {story.amount}
+                      {story.amount}
                     </div>
                     <div className="text-xs text-gray-600">Raised</div>
                   </div>
@@ -149,16 +148,12 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
                   </div>
                 </div>
 
-               
                 <Button
                   variant="outline"
                   size="sm"
                   className="w-full group-hover:bg-blue-50 group-hover:border-blue-200"
                 >
-                  <Link href={ `${story.link}`}>
-                  View Details
-
-                  </Link>
+                  <Link href={`${story.link}`}>View Details</Link>
                   <ExternalLink className="w-3 h-3 ml-2" />
                 </Button>
               </CardContent>
@@ -179,15 +174,14 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">
                 <Link href="https://www.fiverr.com/sholly_be">
-                Start Your Campaign
+                  Start Your Campaign
                 </Link>
               </Button>
               <Button variant="outline">
-              <Link href="https://www.fiverr.com/sholly_be">
-                Schedule Consultation
+                <Link href="https://www.fiverr.com/sholly_be">
+                  Schedule Consultation
                 </Link>
-
-                </Button>
+              </Button>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Image, Linkedin, Twitter, Users } from "lucide-react";
+import { Image, Linkedin, Twitter, Users, Instagram } from "lucide-react";
 
 interface TeamMember {
   name: string;
@@ -63,7 +63,7 @@ export function TeamSection({ data }: TeamSectionProps) {
                     href={member.linkedin}
                     className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300 hover:scale-110"
                   >
-                    <Linkedin className="h-5 w-5" />
+                    <Instagram className="h-5 w-5" />
                   </a>
                   <a
                     href={member.twitter}

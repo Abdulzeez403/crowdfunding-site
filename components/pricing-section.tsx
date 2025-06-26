@@ -1,18 +1,18 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Check, Star, Award } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Check, Star, Award, Link } from "lucide-react";
 
 interface PricingPlan {
-  plan: string
-  price: string
-  period: string
-  description: string
-  features: string[]
-  popular: boolean
+  plan: string;
+  price: string;
+  period: string;
+  description: string;
+  features: string[];
+  popular: boolean;
 }
 
 interface PricingSectionProps {
-  data: PricingPlan[]
+  data: PricingPlan[];
 }
 
 export function PricingSection({ data }: PricingSectionProps) {
@@ -24,10 +24,13 @@ export function PricingSection({ data }: PricingSectionProps) {
             <Award className="w-4 h-4 mr-2" />
             Flexible Pricing Plans
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Choose Your Plan</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            Choose Your Plan
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Select the perfect plan for your fundraising goals. All plans include our core features with varying levels
-            of support and customization.
+            Select the perfect plan for your fundraising goals. All plans
+            include our core features with varying levels of support and
+            customization.
           </p>
         </div>
 
@@ -36,7 +39,9 @@ export function PricingSection({ data }: PricingSectionProps) {
             <Card
               key={index}
               className={`relative border-0 shadow-lg transition-all duration-300 hover:shadow-xl animate-fade-in-up ${
-                plan.popular ? "ring-2 ring-blue-500 scale-105 shadow-2xl" : "hover:scale-105"
+                plan.popular
+                  ? "ring-2 ring-blue-500 scale-105 shadow-2xl"
+                  : "hover:scale-105"
               }`}
               style={{ animationDelay: `${index * 200}ms` }}
             >
@@ -50,9 +55,13 @@ export function PricingSection({ data }: PricingSectionProps) {
               )}
 
               <CardHeader className="text-center pb-4 pt-8">
-                <CardTitle className="text-2xl font-bold text-gray-900 mb-2">{plan.plan}</CardTitle>
+                <CardTitle className="text-2xl font-bold text-gray-900 mb-2">
+                  {plan.plan}
+                </CardTitle>
                 <div className="mb-4">
-                  <span className="text-5xl font-bold text-gray-900">{plan.price}</span>
+                  <span className="text-5xl font-bold text-gray-900">
+                    {plan.price}
+                  </span>
                   <span className="text-gray-500 text-lg">{plan.period}</span>
                 </div>
                 <p className="text-gray-600">{plan.description}</p>
@@ -68,20 +77,32 @@ export function PricingSection({ data }: PricingSectionProps) {
                   ))}
                 </ul>
 
-                <Button
-                  className={`w-full py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 ${
-                    plan.popular
-                      ? "bg-blue-600 hover:bg-blue-700 text-white"
-                      : "bg-gray-100 hover:bg-gray-200 text-gray-900"
-                  }`}
+                <a
+                  href={`https://wa.me/2348108261689?text=${encodeURIComponent(
+                    `Hello! I'm interested in the "${plan.plan}" plan.\n\n` +
+                      `Price: ${plan.price} ${plan.period}\n` +
+                      `Description: ${plan.description}\n` +
+                      `Features:\n- ${plan.features.join("\n- ")}\n\n` +
+                      `Please tell me more about it.`
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Get Started
-                </Button>
+                  <Button
+                    className={`w-full py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 ${
+                      plan.popular
+                        ? "bg-blue-600 hover:bg-blue-700 text-white"
+                        : "bg-gray-100 hover:bg-gray-200 text-gray-900"
+                    }`}
+                  >
+                    Get Started
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
