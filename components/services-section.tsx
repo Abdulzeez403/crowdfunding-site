@@ -105,7 +105,7 @@ export function ServicesSection({ data }: ServicesSectionProps) {
                     ))}
                   </ul>
                   <a
-                    href={`https://wa.me/2348108261689?text=${encodeURIComponent(
+                    href={`https://wa.me/2349060988455?text=${encodeURIComponent(
                       `Hello! I'm interested in your "${service.title}" service.\n\n` +
                         `Price Range: ${service.priceRange}\n` +
                         `Description: ${service.description}\n` +
