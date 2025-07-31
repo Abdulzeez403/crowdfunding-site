@@ -78,7 +78,7 @@ export function PricingSection({ data }: PricingSectionProps) {
                 </ul>
 
                 <a
-                  href={`https://wa.me/2348108261689?text=${encodeURIComponent(
+                  href={`https://wa.me/2349060988455?text=${encodeURIComponent(
                     `Hello! I'm interested in the "${plan.plan}" plan.\n\n` +
                       `Price: ${plan.price} ${plan.period}\n` +
                       `Description: ${plan.description}\n` +
