@@ -1,20 +1,28 @@
-"use client"
+"use client";
 
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, ArrowUp } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Linkedin,
+  Twitter,
+  Facebook,
+  ArrowUp,
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 interface FooterProps {
   data: {
-    email: string
-    phone: string
-    address: string
-  }
+    email: string;
+    phone: string;
+    address: string;
+  };
 }
 
 export function Footer({ data }: FooterProps) {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" })
-  }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <footer className="bg-gray-900 text-white relative">
@@ -22,10 +30,13 @@ export function Footer({ data }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-3xl font-bold text-white mb-4">FundRaise Pro</h3>
+            <h3 className="text-3xl font-bold text-white mb-4">
+              FundRaise Pro
+            </h3>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
-              We are architects of brand success, combining creativity, data insights, and innovative technology to
-              elevate your fundraising campaigns.
+              We are architects of brand success, combining creativity, data
+              insights, and innovative technology to elevate your fundraising
+              campaigns.
             </p>
             <div className="flex space-x-4">
               <a
@@ -51,24 +62,30 @@ export function Footer({ data }: FooterProps) {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-6">
+              Quick Links
+            </h4>
             <ul className="space-y-3">
-              {["Home", "About", "Services", "Pricing", "Team", "Contact"].map((link) => (
-                <li key={link}>
-                  <a
-                    href={`#${link.toLowerCase()}`}
-                    className="text-gray-300 hover:text-white transition-colors duration-300 hover:translate-x-1 inline-block"
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
+              {["Home", "About", "Services", "Pricing", "Team", "Contact"].map(
+                (link) => (
+                  <li key={link}>
+                    <a
+                      href={`#${link.toLowerCase()}`}
+                      className="text-gray-300 hover:text-white transition-colors duration-300 hover:translate-x-1 inline-block"
+                    >
+                      {link}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-6">Contact Info</h4>
+            <h4 className="text-lg font-semibold text-white mb-6">
+              Contact Info
+            </h4>
             <div className="space-y-4">
               <div className="flex items-center group">
                 <Mail className="h-5 w-5 text-blue-400 mr-3 group-hover:scale-110 transition-transform duration-300" />
@@ -88,7 +105,8 @@ export function Footer({ data }: FooterProps) {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-center md:text-left">
-            © 2024 FundRaise Pro. All rights reserved. | Privacy Policy | Terms of Service
+            © 2025 Stratosedge. All rights reserved. | Privacy Policy | Terms of
+            Service
           </p>
           <Button
             onClick={scrollToTop}
@@ -102,5 +120,5 @@ export function Footer({ data }: FooterProps) {
         </div>
       </div>
     </footer>
-  )
+  );
 }
