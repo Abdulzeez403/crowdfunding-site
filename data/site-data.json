@@ -198,15 +198,15 @@
     {
       "name": "Solihu",
       "role": "CEO / Lead Strategist",
-      "bio": "Former CMO with years of experience in campaign strategy and digital growth.",
+      "bio": "Leads strategy and growth with years of campaign and brand experience.",
       "image": "/agent1.jpeg",
       "linkedin": "https://www.instagram.com/solihu26?igsh=MXN0ajVndDU2ejI3eQ==",
       "twitter": "https://x.com/isowo_solihu?t=FBNage8eXzbvA7Ll6yUdcg&s=09"
     },
     {
-      "name": "YOY",
-      "role": "Video Expert",
-      "bio": "Specialist in copywriting and visual storytelling for fundraising brands.",
+      "name": "Yusuf",
+      "role": "Social Media Manager / Video Specialist",
+      "bio": "Creates engaging videos and social campaigns that inspire action.",
       "image": "/agent2.jpeg",
       "linkedin": "#",
       "twitter": "#"
@@ -214,7 +214,7 @@
     {
       "name": "Harmony",
       "role": "Email Marketing Lead",
-      "bio": "Expert in CRM, segmentation, and drip campaign strategy.",
+      "bio": "Builds donor relationships with smart, personalized email campaigns.",
       "image": "/agent3.jpeg",
       "linkedin": "#",
       "twitter": "#"
@@ -222,47 +222,79 @@
     {
       "name": "Samad",
       "role": "Social Media Manager",
-      "bio": "Manages video promotion and influencer outreach.",
+      "bio": "Drives engagement and outreach through creative social strategies.",
       "image": "/agent5.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
     {
-      "name": "SULEXY",
-      "role": "Social Media Manager",
-      "bio": "Manages video promotion and influencer outreach.",
-      "image": "/agent4.jpeg",
+      "name": "Yusuf Abdulquadir",
+      "role": "Research Manager",
+      "bio": "Provides insights and analysis to guide stronger campaign strategies.",
+      "image": "/agent10.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
     {
       "name": "Herbdulmuiz",
       "role": "Social Media Manager",
-      "bio": "Manages video promotion and influencer outreach.",
+      "bio": "Builds communities and promotes campaigns through social channels.",
       "image": "/agent6.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
     {
-      "name": "Themariam",
+      "name": "Mariam Asuramu",
       "role": "Crowdfunding Strategist",
-      "bio": "strategic and influencer outreach.",
-      "image": "/agent7.png",
+      "bio": "Designs effective fundraising strategies and outreach campaigns.",
+      "image": "/agent7.jpeg",
       "linkedin": "#",
       "twitter": "#"
     },
     {
       "name": "Kamaldeen",
-      "role": "Promotion",
-      "bio": "Manages video promotion and influencer outreach.",
+      "role": "Promotion Lead",
+      "bio": "Focuses on digital promotion to boost campaign visibility.",
       "image": "/agent8.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Zulkorinain",
+      "role": "Data Analyst",
+      "bio": "Transforms campaign data into actionable insights.",
+      "image": "/agent9.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Arisekola Shafihi",
+      "role": "Fundraising Adviser",
+      "bio": "Guides campaigns with proven fundraising strategies.",
+      "image": "/agent11.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Ibrahim Alabidun",
+      "role": "Campaign Manager",
+      "bio": "Manages end-to-end campaigns and donor communication.",
+      "image": "/agent13.jpeg",
+      "linkedin": "#",
+      "twitter": "#"
+    },
+    {
+      "name": "Olarinde Hamdalah",
+      "role": "Content Writer",
+      "bio": "Writes impactful stories that connect with donors.",
+      "image": "/agent12.jpeg",
       "linkedin": "#",
       "twitter": "#"
     }
   ],
   "contact": {
     "email": " ishowosolihu@gmail.com ",
-    "phone": "+2349060988455",
+    "phone": "+2348108261689",
     "address": "123 Business Ave, Nigeria, Lagos State",
     "ctaText": "Contact Us",
     "note": "Let's discuss your next campaign. We usually respond within 24 hours."

@@ -18,6 +18,12 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       <Navigation />
       <main>
+        <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 bg-red-600 text-white px-3 py-6 rounded-l-2xl shadow-lg cursor-pointer">
+          <p className="text-sm font-semibold [writing-mode:vertical-rl] rotate-180 tracking-widest">
+            Donation is not guarantee!
+          </p>
+        </div>
+
         <HeroSection data={data.hero} />
         <AboutSection data={data.about} />
         <ServicesSection data={data.services} />

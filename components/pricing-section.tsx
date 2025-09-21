@@ -77,7 +77,7 @@ export function PricingSection({ data }: PricingSectionProps) {
                   ))}
                 </ul>
 
-                <a
+                {/* <a
                   href={`https://wa.me/2349060988455?text=${encodeURIComponent(
                     `Hello! I'm interested in the "${plan.plan}" plan.\n\n` +
                       `Price: ${plan.price} ${plan.period}\n` +
@@ -87,17 +87,17 @@ export function PricingSection({ data }: PricingSectionProps) {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                > */}
+                <Button
+                  className={`w-full py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 ${
+                    plan.popular
+                      ? "bg-blue-600 hover:bg-blue-700 text-white"
+                      : "bg-gray-100 hover:bg-gray-200 text-gray-900"
+                  }`}
                 >
-                  <Button
-                    className={`w-full py-3 text-lg font-semibold transition-all duration-300 hover:scale-105 ${
-                      plan.popular
-                        ? "bg-blue-600 hover:bg-blue-700 text-white"
-                        : "bg-gray-100 hover:bg-gray-200 text-gray-900"
-                    }`}
-                  >
-                    Get Started
-                  </Button>
-                </a>
+                  Get Started
+                </Button>
+                {/* </a> */}
               </CardContent>
             </Card>
           ))}

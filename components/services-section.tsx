@@ -104,7 +104,7 @@ export function ServicesSection({ data }: ServicesSectionProps) {
                       </li>
                     ))}
                   </ul>
-                  <a
+                  {/* <a
                     href={`https://wa.me/2349060988455?text=${encodeURIComponent(
                       `Hello! I'm interested in your "${service.title}" service.\n\n` +
                         `Price Range: ${service.priceRange}\n` +
@@ -113,13 +113,13 @@ export function ServicesSection({ data }: ServicesSectionProps) {
                         `Please share more details with me.`
                     )}`}
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300 hover:scale-105">
-                      Get Started
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </a>
+                    rel="noopener noreferrer" */}
+                  {/* > */}
+                  <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white transition-all duration-300 hover:scale-105">
+                    Get Started
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                  {/* </a> */}
                 </CardContent>
               </Card>
             );

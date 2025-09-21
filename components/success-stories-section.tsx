@@ -42,7 +42,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
   ];
   const filteredStories =
     filter === "all" ? data : data.filter((story) => story.category === filter);
-  const featuredStories = data.filter((story) => story.featured);
+  const featuredStories = data.filter((story) => story.featured as any);
 
   const nextStory = () => {
     setActiveStory((prev) => (prev + 1) % featuredStories.length);
@@ -124,7 +124,7 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
 
               <CardContent className="pt-0">
                 <img
-                  src={story?.ProjectImage}
+                  src={story?.ProjectImage as any}
                   alt={story.title}
                   className="rounded w-full h-50"
                 />
@@ -173,14 +173,10 @@ export function SuccessStoriesSection({ data }: SuccessStoriesSectionProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                <Link href="https://www.fiverr.com/sholly_be">
-                  Start Your Campaign
-                </Link>
+                <Link href="#contact">Start Your Campaign</Link>
               </Button>
               <Button variant="outline">
-                <Link href="https://www.fiverr.com/sholly_be">
-                  Schedule Consultation
-                </Link>
+                <Link href="#contact">Schedule Consultation</Link>
               </Button>
             </div>
           </div>
