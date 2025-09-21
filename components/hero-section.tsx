@@ -39,9 +39,7 @@ export function HeroSection({ data }: HeroSectionProps) {
                 size="lg"
                 className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 transition-all duration-300 hover:scale-105"
               >
-                <Link href="https://www.fiverr.com/sholly_be">
-                  Schedule Consultation
-                </Link>
+                <Link href="#contact">Schedule Consultation</Link>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
