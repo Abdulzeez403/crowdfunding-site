@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -36,12 +37,17 @@ export function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors duration-300">
-              Stratosedge
-            </h1>
-          </div>
+        <div className="flex justify-between items-center h-20">
+          <a href="#home" aria-label="Stratosedge home" className="flex-shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Stratosedge"
+              width={100}
+              height={100}
+              priority
+              className="h-20 w-20 object-contain"
+            />
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">
